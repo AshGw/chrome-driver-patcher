@@ -1,0 +1,11 @@
+[package]
+name = "c-d-p"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+memfd = "0.6.4"
+rand = "0.8.5"
+nix = { version = "0.27", features = ["process"] }
+memchr = "2.6.4"
+structopt = "0.3.26"
